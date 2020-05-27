@@ -17,8 +17,11 @@ public class AnnotationDemoApp {
 		
 		// call method to get the daily fortune
 		
-		System.out.println(theCoach.getClass().getSimpleName() + ": " + theCoach.getDailyFortune());
-		System.out.println(soccerCoach.getClass().getSimpleName() + ": " + soccerCoach.getDailyFortune());
+		System.out.println("Your daily fortune according to your " + 
+		theCoach.getClass().getSimpleName() + ": " + theCoach.getDailyFortune());
+		
+		System.out.println("Your daily fortune according to your " + 
+		soccerCoach.getClass().getSimpleName() + ": " + soccerCoach.getDailyFortune());
 		// close the context
 		ctx.close();
 
