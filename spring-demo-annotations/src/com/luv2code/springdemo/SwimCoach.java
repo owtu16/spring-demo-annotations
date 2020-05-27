@@ -13,6 +13,14 @@ public class SwimCoach implements Coach {
 	@Value("${foo.team}")
 	private String team;
 	
+	public String getEmail() {
+		return email;
+	}
+
+	public String getTeam() {
+		return team;
+	}
+
 	@Autowired
 	@Qualifier("randomFortuneService")
 	private FortuneService fortuneService;

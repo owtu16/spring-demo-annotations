@@ -14,6 +14,8 @@ public class AnnotationDemoApp {
 		System.out.println("Your daily fortune according to your " + 
 		x.getClass().getSimpleName() + ": " + x.getDailyFortune() + "\n");
 		
+		
+	
 		context.close();
 	}
 
@@ -35,8 +37,10 @@ public class AnnotationDemoApp {
 //		
 //		System.out.println("Your daily fortune according to your " + 
 //		soccerCoach.getClass().getSimpleName() + ": " + soccerCoach.getDailyFortune());
+		
 		print("tennisCoach");
 		print("soccerCoach");
+		print("swimCoach");
 		// close the context
 //		ctx.close();
 
