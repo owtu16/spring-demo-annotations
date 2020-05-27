@@ -11,4 +11,10 @@ public class SoccerCoach implements Coach {
 		return "Run two miles everyday";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
