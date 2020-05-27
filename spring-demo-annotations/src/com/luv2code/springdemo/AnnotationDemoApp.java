@@ -12,7 +12,7 @@ public class AnnotationDemoApp {
 		Coach theCoach = ctx.getBean("tennisCoach",Coach.class);
 		Coach soccerCoach = ctx.getBean("soccerCoach",Coach.class);
 		// call a method on the bean
-		System.out.println(theCoach.getClass().getSimpleName() + ": " + theCoach.getDailyWorkout() + "\n");
+		System.out.println(theCoach.getClass().getSimpleName() + ": " + theCoach.getDailyWorkout());
 		System.out.println(soccerCoach.getClass().getSimpleName() + ": " + soccerCoach.getDailyWorkout() + "\n");
 		
 		// call method to get the daily fortune
