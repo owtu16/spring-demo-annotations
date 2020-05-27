@@ -6,6 +6,10 @@ import org.springframework.stereotype.Component;
 public class SoccerCoach implements Coach {
 	
 	private FortuneService fortuneService;
+	
+	public SoccerCoach(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
 
 	@Override
 	public String getDailyWorkout() {
