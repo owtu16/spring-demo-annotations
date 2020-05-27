@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class SoccerCoach implements Coach {
 	
 	@Autowired
-	@Qualifier("randomService")
+	@Qualifier("randomFortuneService")
 	private FortuneService fortuneService;
 	
 	/*
