@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 public class TennisCoach implements Coach {
 	
 	@Autowired
-	@Qualifier("randomFortuneService")
+	@Qualifier("fortuneCookieService")
 	private FortuneService fortuneService;
 	
 	// define a default constructor
