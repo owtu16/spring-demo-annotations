@@ -16,7 +16,7 @@ public class AnnotationDemoApp {
 				+ x.getDailyFortune() + "\n");
 		if(includesMethods) {
 			System.out.println(((SwimCoach)x).getEmail());
-			System.out.println(((SwimCoach)x).getTeam());
+			System.out.println(((SwimCoach)x).getTeam() + "\n");
 		}
 //		System.out.println(beanText);
 //		context.close();
