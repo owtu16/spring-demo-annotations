@@ -12,7 +12,7 @@ public class HockeyCoach implements Coach {
 	@Override
 	public String getDailyWorkout() {
 		// TODO Auto-generated method stub
-		return null;
+		return "Practice ice skating everyday for one hour";
 	}
 
 	@Override
