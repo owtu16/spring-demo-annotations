@@ -44,6 +44,7 @@ public class AnnotationDemoApp {
 		print("tennisCoach",false);
 		print("soccerCoach",false);
 		print("swimCoach",true);
+		print("hockeyCoach",false);
 		// close the context
 		context.close();
 
