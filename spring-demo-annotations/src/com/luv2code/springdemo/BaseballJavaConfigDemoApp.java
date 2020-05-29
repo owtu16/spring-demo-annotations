@@ -15,8 +15,8 @@ public class BaseballJavaConfigDemoApp {
 		System.out.println("Your daily fortune according to your " + x.getClass().getSimpleName() + ": "
 				+ x.getDailyFortune() + "\n");
 		if(includesMethods) {
-			System.out.println(((SwimCoach)x).getEmail());
-			System.out.println(((SwimCoach)x).getTeam() + "\n");
+			System.out.println(((BaseballCoach)x).getEmail());
+			System.out.println(((BaseballCoach)x).getTeam() + "\n");
 		}
 //		System.out.println(beanText);
 //		context.close();
@@ -29,7 +29,7 @@ public class BaseballJavaConfigDemoApp {
 //		print("soccerCoach",false);
 //		print("swimCoach",true);
 //		print("hockeyCoach",false);
-		print("baseballCoach",false);
+		print("baseballCoach",true);
 		// close the context
 		context.close();
 
